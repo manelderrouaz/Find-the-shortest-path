@@ -62,7 +62,7 @@ def main():
     global map 
     global df
     graph = get_map_data()
-    #csv_file = create_csv(graph) 
+    #csv_file = create_csv(graph) uncomment this to create the csv file 
 
     df=pd.read_csv("Bejaia_nodes.csv")
 
